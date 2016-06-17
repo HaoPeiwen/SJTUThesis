@@ -6,7 +6,11 @@
 ![](https://img.shields.io/badge/Linux-unknown-orange.svg)
 ![](https://img.shields.io/badge/Windows-unknown-orange.svg)
 
-专门为了本科毕业论文实现的模板，大致可用，可能需要进行些许修改。
+专门为了本科毕业论文实现的模板，大致可用，可能需要进行些许修改。这里是[demo文件](./demo.pdf)，与[weijianwen/SJTUThesis](https://github.com/weijianwen/SJTUThesis)中的0.7.x版本相比有以下改变：
+
+1. 添加了首页
+2. 添加了结尾的英文大摘要
+3. 去除摘要和目录的页码（TODO）
 
 ## 如何使用
 
