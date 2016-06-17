@@ -23,19 +23,21 @@
 \include{tex/id}
 \maketitle
 
-\makeenglishtitle
+%% 本科毕业论文没有英文标题
+% \makeenglishtitle
 
-\makeatletter
-\ifsjtu@submit\relax
-	\includepdf{pdf/original.pdf}
-	\cleardoublepage
-	\includepdf{pdf/authorization.pdf}
-	\cleardoublepage
-\else
-	\makeDeclareOriginal
-	\makeDeclareAuthorization
-\fi
-\makeatother
+%% 授权声明等
+% \makeatletter
+% \ifsjtu@submit\relax
+% 	\includepdf{pdf/original.pdf}
+% 	\cleardoublepage
+% 	\includepdf{pdf/authorization.pdf}
+% 	\cleardoublepage
+% \else
+% 	\makeDeclareOriginal
+% 	\makeDeclareAuthorization
+% \fi
+% \makeatother
 
 
 \frontmatter 	% 使用罗马数字对前言编号
@@ -46,14 +48,16 @@
 
 %% 目录、插图目录、表格目录
 \tableofcontents
-\listoffigures
-\addcontentsline{toc}{chapter}{\listfigurename} %将插图目录加入全文目录
-\listoftables
-\addcontentsline{toc}{chapter}{\listtablename}  %将表格目录加入全文目录
+%% 本科毕业论文没有插图目录等要求
+% \listoffigures
+% \addcontentsline{toc}{chapter}{\listfigurename} %将插图目录加入全文目录
+% \listoftables
+% \addcontentsline{toc}{chapter}{\listtablename}  %将表格目录加入全文目录
 % \listofalgorithms
 % \addcontentsline{toc}{chapter}{算法索引}        %将算法目录加入全文目录
 
-\include{tex/symbol} % 主要符号、缩略词对照表
+%% 本科毕业论文没有符号表要求
+% \include{tex/symbol} % 主要符号、缩略词对照表
 
 \mainmatter	% 使用阿拉伯数字对正文编号
 
